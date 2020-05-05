@@ -1,3 +1,4 @@
+// THIS FILE TEACHES YOU EMOTION
 import React from "react"
 import { css, jsx } from "@emotion/core"
 /** @jsx jsx */
@@ -14,6 +15,11 @@ const style = css`
     font-size: 20px;
     padding: 10px;
     box-sizing: border-box;
+
+    .item {
+        text-decoration: underline;
+        cursor: pointer;
+    }
 `
 
 export default () => {
@@ -21,7 +27,7 @@ export default () => {
         <div>
             MyApp
         </div>
-        <div>
+        <div className="item">
             Login
         </div>
     </div>
