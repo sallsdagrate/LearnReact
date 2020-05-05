@@ -44,7 +44,6 @@ export const Btn = () => {
         <Button onClick={inc}>
             Clicked {num} times
         </Button>
-        {}
     </div>
 }
 
