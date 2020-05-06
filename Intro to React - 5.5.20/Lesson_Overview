@@ -1,0 +1,10 @@
+Here's what we covered:
+- React allows us to essentially make our own HTML tags, remove duplicating code, and put HTML, CSS and JS in a single file
+- writing a simple functional component
+- using the useState hook
+- components re-render when their state or props change
+- components are like functions
+- the attributes of your component are like the function arguments; we call them props
+- emotion is a library that allows you to write "CSS-in-JS"
+- the old way of using state: by using a class component
+- in the old way, we explicitly declare this.state ONLY in the constructor, to change it elsewhere we use setState which rerenders the component
